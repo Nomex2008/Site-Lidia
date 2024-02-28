@@ -40,6 +40,8 @@ body {
 .page__location {
 	margin-bottom: 240px;
 }
+.page__features {
+}
 @media (max-width: 1200px) {
 	.page__hero {
 		margin-bottom: 100px;
@@ -211,6 +213,7 @@ body {
 	padding-top: 62px;
 	padding-bottom: 40px;
 	position: relative;
+	margin-bottom: 170px;
 }
 .hero__container {
 	display: flex;
@@ -355,6 +358,61 @@ body {
 	.images-hero {
 		align-self: center;
 	}
+}
+/*features*/
+.features {
+	margin-bottom: 200px;
+}
+@media (max-width: 1200px) {
+	.hero {
+		margin-bottom: 100px;
+	}
+}
+@media (max-width: 991.98px) {
+	.hero {
+		margin-bottom: 60px;
+	}
+}
+@media (max-width: 767.98px) {
+	.hero {
+		margin-bottom: 40px;
+	}
+}
+.features__container {
+}
+.features__header-block {
+}
+.header-block {
+}
+.header-block__label {
+}
+.header-block__title {
+}
+.features__items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+.features__item {
+	width: 30%;
+}
+.features__icon {
+}
+.features__title {
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: #000;
+}
+.features__text {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 187%;
+	letter-spacing: 0.02em;
+	text-align: center;
 }
 /*footer*/
 .footer {
