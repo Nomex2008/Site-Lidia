@@ -55,6 +55,8 @@ body {
 }
 .page__reviews {
 }
+.page__location {
+}
 @media (max-width: 1200px) {
 	.page__hero {
 		margin-bottom: 100px;
@@ -622,6 +624,17 @@ body {
 .reviews__item > *:last-child {
 	margin-bottom: 0;
 }
+
+/*location*/
+.location {
+}
+.location__header-block {
+}
+.location__map {
+	width: 100%;
+	height: 405px;
+}
+
 /*footer*/
 .footer {
     position: relative;
